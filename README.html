@@ -364,14 +364,60 @@ on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http:
 generated that includes both content as well as the output of any
 embedded R code chunks within the document. You can embed an R code
 chunk like this:</p>
-<pre class="r"><code>summary(cars)</code></pre>
-<pre><code>##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00</code></pre>
+<pre class="r"><code>library(aae)
+?aae::aae
+
+aae |&gt; 
+  head() |&gt; 
+  knitr::kable()</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">time-malawi</th>
+<th align="right">bc-blue</th>
+<th align="right">bc-ir</th>
+<th align="left">aae-blue-ir</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">54641 secs</td>
+<td align="right">1547</td>
+<td align="right">1183</td>
+<td align="left">1.437950022</td>
+</tr>
+<tr class="even">
+<td align="left">54651 secs</td>
+<td align="right">1032</td>
+<td align="right">1507</td>
+<td align="left">0.406544784</td>
+</tr>
+<tr class="odd">
+<td align="left">54661 secs</td>
+<td align="right">917</td>
+<td align="right">159</td>
+<td align="left">3.803965338</td>
+</tr>
+<tr class="even">
+<td align="left">54671 secs</td>
+<td align="right">1349</td>
+<td align="right">1623</td>
+<td align="left">0.715398217</td>
+</tr>
+<tr class="odd">
+<td align="left">54681 secs</td>
+<td align="right">917</td>
+<td align="right">1804</td>
+<td align="left">-0.068641921</td>
+</tr>
+<tr class="even">
+<td align="left">54691 secs</td>
+<td align="right">1387</td>
+<td align="right">1322</td>
+<td align="left">1.086753633</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="including-plots" class="section level2">
 <h2>Including Plots</h2>
