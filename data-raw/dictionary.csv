@@ -1,0 +1,5 @@
+variable_name,description
+time-malawi,Local time in Malawi
+bc-blue,Black carbon concentration at infra-red wavelength light [ng/m3]
+bc-ir,Black carbon concentration at blue wavelength light [ng/m3]
+aae-blue-ir,Absorption angstrom exponent at Blue/IR wavelength
