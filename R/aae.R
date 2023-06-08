@@ -12,3 +12,5 @@
 #'   \item{aae-blue-ir}{Absorption angstrom exponent at Blue/IR wavelength}
 #' }
 #'
+#'
+"aae"
