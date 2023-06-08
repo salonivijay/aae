@@ -18,6 +18,12 @@ When you click the **Knit** button a document will be generated that includes bo
 
 library(aae)
 ?aae::aae
+
+aae |> 
+  head() |> 
+  knitr::kable()
+
+
 ```
 
 ## Including Plots

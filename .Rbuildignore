@@ -3,3 +3,7 @@
 ^data-raw$
 ^LICENSE\.md$
 ^CITATION\.cff$
+^vignettes/articles$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
